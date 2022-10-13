@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-browserify-cipher-$1/ \
+ https://github.com/crypto-browserify/browserify-cipher/tags .*/archive/.*/v?([\d\.]+).tar.gz
